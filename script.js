@@ -177,7 +177,7 @@ window.addEventListener("click", function (event) {
   }
 });
 
-window.addEventListener("mouseup", function (event) {
+window.addEventListener("mousedown", function (event) {
   if (phase == "stretching") {
     phase = "turning";
   }
