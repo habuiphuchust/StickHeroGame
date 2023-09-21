@@ -168,7 +168,7 @@ window.addEventListener("keydown", function (event) {
   }
 });
 
-window.addEventListener("mousedown", function (event) {
+window.addEventListener("click", function (event) {
   if (phase == "waiting") {
     lastTimestamp = undefined;
     introductionElement.style.opacity = 0;
